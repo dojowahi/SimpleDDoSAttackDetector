@@ -2,8 +2,11 @@
 
 ### Prerequisite
 Spark Streaming (Python API)
+
 Apache Flume (Python API)
+
 Python 2.7 or above
+
 HDP 2.5
 
 ### Purpose
