@@ -12,7 +12,7 @@ HDP 2.5
 ### Purpose
 The goal is get better understanding of Spark streaming's windowing functions
 
-###Description
+### Description
 The Spark code identifies potential IPs from which a DDOS attack orginates within a minute of the attack.
 
 
