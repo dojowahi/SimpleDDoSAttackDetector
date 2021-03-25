@@ -39,4 +39,6 @@ The steps to test this code are as follows:
 ### Future steps
 Implement more Machine Learning to detect DDOS attackers.
 
-### Prerequisite for Structured Streaming
+### Prerequisite for Structured Streaming (structured_streaming_ddos)
+
+In this experiment we stream the apache log messages to a Kafka topic setup on anEC2 servers and then have a Spark Structured streaming job in Databricks listening to the Kafka topic. The idea is to explore how to use databricks with data streaming to a Kafka on AWS EC2 server
