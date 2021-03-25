@@ -1,6 +1,13 @@
-# Simple DDoS detector using Spark Streaming
+# Simple DDoS detector using Legacy Spark Streaming (DStream) and Structured Streaming
 
-### Prerequisite
+### Description
+The Spark code identifies potential IPs from which a DDOS attack orginates within a minute of the attack.
+
+### Apache log message sample
+155.156.168.116 - - [25/May/2015:23:11:15 +0000] "GET / HTTP/1.0" 200 3557 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; acc=baadshah; acc=none; freenet DSL 1.1; (none))"
+For more information, please read the apache log format
+
+### Prerequisite for DStream
 Spark Streaming (Python API)
 
 Apache Flume (Python API)
@@ -11,14 +18,6 @@ HDP 2.5
 
 ### Purpose
 The goal is get better understanding of Spark streaming's windowing functions
-
-### Description
-The Spark code identifies potential IPs from which a DDOS attack orginates within a minute of the attack.
-
-
-### Apache log message sample
-155.156.168.116 - - [25/May/2015:23:11:15 +0000] "GET / HTTP/1.0" 200 3557 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; acc=baadshah; acc=none; freenet DSL 1.1; (none))"
-For more information, please read the apache log format.
 
 ### Execution Steps
 
@@ -39,3 +38,5 @@ The steps to test this code are as follows:
 
 ### Future steps
 Implement more Machine Learning to detect DDOS attackers.
+
+### Prerequisite for Structured Streaming
