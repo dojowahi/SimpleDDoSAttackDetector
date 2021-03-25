@@ -39,3 +39,5 @@ source kafka-topics.sh --zookeeper localhost:2181 \
   --topic logcheck \
   --partitions 2 \
   --replication-factor 1
+  
+echo "Ensure AWS security group on EC2 server allows port 9092 to be accessible"
