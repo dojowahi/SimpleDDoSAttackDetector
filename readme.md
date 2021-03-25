@@ -1,13 +1,13 @@
 # Simple DDoS detector using Legacy Spark Streaming (DStream) and Structured Streaming
 
 ### Description
-The Spark code identifies potential IPs from which a DDOS attack orginates within a minute of the attack.
+The Spark code identifies potential IPs from which a DDOS attack orginates within a minute of the attack. The code explores the legacy spark method of DStreams and the new method of Structured streaming
 
 ### Apache log message sample
 155.156.168.116 - - [25/May/2015:23:11:15 +0000] "GET / HTTP/1.0" 200 3557 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; acc=baadshah; acc=none; freenet DSL 1.1; (none))"
 For more information, please read the apache log format
 
-### Prerequisite for DStream
+### Prerequisite for DStream (spark_legacy_dstream)
 Spark Streaming (Python API)
 
 Apache Flume (Python API)
